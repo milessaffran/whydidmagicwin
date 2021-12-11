@@ -1,0 +1,27 @@
+{
+  "name": "nextjs",
+  "version": "5.0.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/server": "latest",
+    "@emotion/styled": "latest",
+    "@mui/material": "latest",
+    "cheerio": "^1.0.0-rc.10",
+    "clsx": "latest",
+    "next": "latest",
+    "prop-types": "latest",
+    "puppeteer": "^13.0.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  }
+}
